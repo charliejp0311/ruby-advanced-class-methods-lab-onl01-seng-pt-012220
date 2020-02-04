@@ -45,8 +45,9 @@ class Song
   end
 
   def self.alphabetical
+    songs = []
     @@all.collect do |song|
-      songs = []
+
       songs << song.name
       songs.sort!
       i = 0
