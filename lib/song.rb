@@ -60,7 +60,8 @@ class Song
       i += 1
     end
     binding.pry
-    a = new.name = file_split_song[1]
+    a = new
+    a.name = file_split_song[1]
   end
 
 end
