@@ -45,14 +45,7 @@ class Song
   end
 
   def self.alphabetical
-    songs = []
-    @@all.collect do |song|
-      songs << song.name
-      songs.sort!
-    end
-    songs.collect do |song_1|
-
-    end
+    @@all.sort! { |a, b| a.name <=> b.name }
   end
 
 end
