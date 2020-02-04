@@ -57,7 +57,7 @@ class Song
       file_split_song << file_split_artist[i].flatten
       i += 1
     end
-    
+
     a = new
 
     binding.pry
