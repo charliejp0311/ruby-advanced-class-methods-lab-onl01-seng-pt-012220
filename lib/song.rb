@@ -14,6 +14,7 @@ class Song
   def self.create(song)
     song = self.new
     save(song)
+    @@all
   end
 
 end
