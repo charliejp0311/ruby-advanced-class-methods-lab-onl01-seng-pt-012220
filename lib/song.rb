@@ -45,7 +45,9 @@ class Song
   end
 
   def self.alphabetical
-
-    binding.pry
+    @@all.collect do |song, name|
+        binding.pry
+    end
+    
   end
 end
