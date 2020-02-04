@@ -45,8 +45,10 @@ class Song
   end
 
   def self.alphabetical
-    @@all.collect do |song, name|
-        binding.pry
+    @@all.collect do |song|
+      songs = []
+      songs << song.name
+      songs 
     end
 
   end
