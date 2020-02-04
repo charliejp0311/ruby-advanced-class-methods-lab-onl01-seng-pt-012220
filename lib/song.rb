@@ -48,11 +48,18 @@ class Song
   end
 
   def self.new_from_filename(f_name)
-    artist = []
-    artist << f_name.split(" - ")
+    file_split_artist = []
+    file_split_song = []
+    file_split_artist << f_name.split(" - ")
+    file_split_artist.each do |f|
+      f.split(".")
+      file_split_song << f.flatten!
+    end 
+      
+    end
+
     a = new
-    artist[1].split(".")
-    artist[1].flatten!
+
     binding.pry
     #a.name =
   end
