@@ -48,6 +48,6 @@ class Song
     @@all.collect do |song, name|
         binding.pry
     end
-    
+
   end
 end
