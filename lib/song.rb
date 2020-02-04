@@ -52,7 +52,7 @@ class Song
       i = 0
       while i < songs.length
         songs[i] = find_by_name(songs[i])
-        songs[i].flatten!
+        binding.pry#songs[i].flatten!
         i += 1
       end
 
