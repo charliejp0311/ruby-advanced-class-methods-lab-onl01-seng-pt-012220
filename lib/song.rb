@@ -41,11 +41,16 @@ class Song
     else
       find_by_name(name)
     end
-
   end
 
   def self.alphabetical
     @@all.sort! { |a, b| a.name <=> b.name }
+  end
+
+  def self.new_from_filename(f_name)
+    artist = []
+    artist << f_name.split(" - ")
+    binding.pry
   end
 
 end
