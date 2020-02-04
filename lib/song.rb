@@ -51,10 +51,11 @@ class Song
     file_split_artist = []
     file_split_song = []
     file_split_artist << f_name.split(" - ")
-    file_split_artist.each do |f|
-      #f.split(".")
-      #file_split_song << f.flatten!
-      binding.pry
+    i = 0
+    while i < file_split_artist.length
+      file_split_artist[i].split(".")
+      file_split_song << file_split_artist[i].flatten
+      i += 1
     end
 
     a = new
