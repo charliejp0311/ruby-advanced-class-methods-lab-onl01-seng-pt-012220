@@ -32,7 +32,7 @@ class Song
   end
 
   def self.find_by_name(name)
-    @@all.find{|doggo| doggo.name == name}
+    @@all.find{|songo| songo.name == name}
   end
 
   def self.find_or_create_by_name(name)
