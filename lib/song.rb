@@ -66,7 +66,7 @@ class Song
     a
     #binding.pry
   end
-  def self.creat_by_filename(f_name)
+  def self.create_by_filename(f_name)
     file_split_artist = []
     file_split_song = []
     file_split_artist << f_name.split(" - ")
