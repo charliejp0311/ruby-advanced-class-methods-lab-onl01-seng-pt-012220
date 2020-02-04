@@ -12,11 +12,11 @@ class Song
   end
 
   def save
-    self.class.all << self
+    self.Song.all << self
   end
 
   def self.create
-    self.class.new
+    self.Song.new
   end
 
 end
