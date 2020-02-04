@@ -54,8 +54,8 @@ class Song
     file_split_artist.each do |f|
       f.split(".")
       file_split_song << f.flatten!
-    end 
-      
+    end
+
     end
 
     a = new
