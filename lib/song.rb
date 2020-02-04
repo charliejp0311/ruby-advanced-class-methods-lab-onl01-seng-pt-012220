@@ -62,6 +62,7 @@ class Song
 
     a = new
     a.name = file_split_song[1]
+    a.artist_name = file_split_song[0]
 
     binding.pry
   end
