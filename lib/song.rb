@@ -47,7 +47,7 @@ class Song
   def self.alphabetical
     @@all.collect do |song|
       songs = []
-      songs << song.name
+      songs << song
       songs
     end
 
