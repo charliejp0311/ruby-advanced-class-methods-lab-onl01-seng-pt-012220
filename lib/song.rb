@@ -51,8 +51,9 @@ class Song
       songs.sort!
       i = 0
       while i < songs.length
+        binding.pry
         songs[i] = find_by_name(songs[i])
-        binding.pry#songs[i].flatten!
+        #songs[i].flatten!
         i += 1
       end
 
