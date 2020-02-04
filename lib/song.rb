@@ -46,5 +46,6 @@ class Song
 
   def self.alphabetical
     @@all.sort
+    binding.pry
   end
 end
