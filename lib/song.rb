@@ -51,10 +51,10 @@ class Song
       songs.sort!
       i = 0
       while i < songs.length
-        songs[i] = find_by_name(songs[i]).flatten
+        songs[i] = find_by_name(songs[i])
         i += 1
       end
-      songs
+      songs.flatten
     end
 
   end
