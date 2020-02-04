@@ -57,11 +57,9 @@ class Song
       binding.pry
     end
 
-    end
-
     a = new
 
-    binding.pry
+    #binding.pry
     #a.name =
   end
 
