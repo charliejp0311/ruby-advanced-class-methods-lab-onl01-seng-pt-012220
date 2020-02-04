@@ -51,7 +51,10 @@ class Song
     artist = []
     artist << f_name.split(" - ")
     a = new
-    a.artist_name = artist[0]
+    artist[1].split(".")
+    artist[1].flatten
+    binding.pry 
+    #a.name = 
   end
 
 end
