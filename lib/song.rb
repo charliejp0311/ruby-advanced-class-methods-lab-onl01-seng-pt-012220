@@ -52,8 +52,8 @@ class Song
     file_split_song = []
     file_split_artist << f_name.split(" - ")
     file_split_artist.each do |f|
-      #f.split(".")
-      #file_split_song << f.flatten!
+      f.split(".")
+      file_split_song << f.flatten!
       binding.pry
     end
 
