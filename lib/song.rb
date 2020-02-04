@@ -56,7 +56,7 @@ class Song
     while i < file_split_artist.length
       file_split_song << file_split_artist[i].split(".")
       file_split_song.flatten!
-      binding.pry
+      #binding.pry
       i += 1
     end
 
