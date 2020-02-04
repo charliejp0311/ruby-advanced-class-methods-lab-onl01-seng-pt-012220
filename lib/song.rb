@@ -48,7 +48,7 @@ class Song
     @@all.collect do |song|
       songs = []
       songs << song.name
-      songs 
+      songs
     end
 
   end
