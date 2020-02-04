@@ -13,8 +13,7 @@ class Song
 
   def self.create
     song = self.class.new
-    song.save
-    @@all
+    binding.pry
   end
 
 end
