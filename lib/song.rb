@@ -53,8 +53,8 @@ class Song
     a = new
     artist[1].split(".")
     artist[1].flatten
-    binding.pry 
-    #a.name = 
+    binding.pry
+    #a.name =
   end
 
 end
