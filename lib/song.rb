@@ -54,6 +54,7 @@ class Song
         songs[i] = find_by_name(songs[i])
         i += 1
       end
+      songs
     end
 
   end
