@@ -54,12 +54,12 @@ class Song
     file_split_artist.each do |f|
       f.split(".")
       file_split_song << f.flatten!
-      binding.pry
+      #binding.pry
     end
 
     a = new
 
-    #binding.pry
+    binding.pry
     #a.name =
   end
 
