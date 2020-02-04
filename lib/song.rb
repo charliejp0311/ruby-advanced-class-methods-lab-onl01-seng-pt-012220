@@ -54,7 +54,9 @@ class Song
         songs[i] = find_by_name(songs[i])
         i += 1
       end
-      songs.flatten
+      songs.collect do |i|
+        i.flatten!
+      end
     end
 
   end
