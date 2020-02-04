@@ -86,4 +86,8 @@ class Song
     #binding.pry
   end
 
+  def destroy_all
+    @@all.clear
+  end
+
 end
