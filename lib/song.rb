@@ -47,17 +47,8 @@ class Song
   def self.alphabetical
     songs = []
     @@all.collect do |song|
-
       songs << song.name
       songs.sort!
-      i = 0
-      while i < songs.length
-        binding.pry
-        songs[i] = find_by_name(songs[i])
-        #songs[i].flatten!
-        i += 1
-      end
-
     end
 
   end
