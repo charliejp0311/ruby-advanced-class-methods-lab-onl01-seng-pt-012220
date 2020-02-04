@@ -50,7 +50,8 @@ class Song
   def self.new_from_filename(f_name)
     artist = []
     artist << f_name.split(" - ")
-    binding.pry
+    a = new 
+    a.artist_name = artist[0]
   end
 
 end
