@@ -66,5 +66,24 @@ class Song
     a
     #binding.pry
   end
+  def self.creat_by_filename(f_name)
+    file_split_artist = []
+    file_split_song = []
+    file_split_artist << f_name.split(" - ")
+    file_split_artist.flatten!
+    i = 0
+    while i < file_split_artist.length
+      file_split_song << file_split_artist[i].split(".")
+      file_split_song.flatten!
+
+      i += 1
+    end
+
+    a = new
+    a.name = file_split_song[1]
+    a.artist_name = file_split_artist[0]
+    a
+    #binding.pry
+  end
 
 end
