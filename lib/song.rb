@@ -51,7 +51,7 @@ class Song
     file_split_artist = []
     file_split_song = []
     file_split_artist << f_name.split(" - ")
-    file_split_artist.flatten
+    file_split_artist.flatten!
     i = 0
     while i < file_split_artist.length
       #file_split_artist[i].split(".")
