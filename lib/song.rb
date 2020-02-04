@@ -59,7 +59,7 @@ class Song
 
       i += 1
     end
-    
+
     a = new
     a.name = file_split_song[1]
     binding.pry
