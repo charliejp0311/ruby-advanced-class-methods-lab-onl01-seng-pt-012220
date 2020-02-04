@@ -47,7 +47,7 @@ class Song
   def self.alphabetical
     @@all.collect do |song|
       songs = []
-      songs << song.name
+      songs << song.name.flatten
       songs.sort!
       i = 0
       while i < songs.length
