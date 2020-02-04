@@ -64,7 +64,7 @@ class Song
     a.name = file_split_song[1]
     a.artist_name = file_split_artist[0]
 
-    #binding.pry
+    binding.pry
   end
 
 end
