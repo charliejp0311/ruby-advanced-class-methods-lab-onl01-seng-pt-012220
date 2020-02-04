@@ -61,9 +61,7 @@ class Song
     end
 
     a = new
-
-
-    #a.name =
+    a.name = file_split_song[1]
   end
 
 end
