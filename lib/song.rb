@@ -52,7 +52,7 @@ class Song
     artist << f_name.split(" - ")
     a = new
     artist[1].split(".")
-    artist[1].flatten
+    artist[1].flatten!
     binding.pry
     #a.name =
   end
