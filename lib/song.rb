@@ -61,7 +61,7 @@ class Song
 
     a = new
 
-    
+
     #a.name =
   end
 
